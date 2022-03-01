@@ -37,6 +37,12 @@
     margin: 2rem 0 2rem 40rem;
     box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
     -webkit-box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.offer__card--item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .offer__card--item h3 {
@@ -105,7 +111,6 @@
     height: 43rem;
     border-radius: 50%;
     background-color: #fffbfb;
-    overflow: hidden;
     transform: rotate(90deg);
 }
 
@@ -125,6 +130,12 @@
     border-radius: .5rem;
     width: 25rem;
     height: 4rem;
+    transition: all .4s ease-out;
+}
+
+.offer__contact--item:hover {
+    transform:scale(1.5);
+    cursor: pointer;
 }
 
 .offer__contact--avatar {
@@ -133,11 +144,12 @@
     transform: rotate(-90deg);
 }
 
-.offer__contact--text{
+.offer__contact--text {
     position: relative;
     bottom: 3rem;
     left: 4rem;
 }
+
 .offer__contact--state {
     width: 2.5rem;
     height: 2.5rem;
@@ -145,9 +157,16 @@
     bottom: 5rem;
     left: 20rem;
 }
-.circle__inner--person{
-position: relative;
-bottom:38rem;
-left: 4rem;
-transform: scale(.6);
+
+.circle__inner--person {
+    position: relative;
+    bottom: 38rem;
+    left: 4rem;
+    transform: scale(.6);
+}
+
+.offer__left--points {
+    position: relative;
+    left: 65rem;
+    top: 5rem;
 }

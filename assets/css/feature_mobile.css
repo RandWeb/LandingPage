@@ -65,11 +65,18 @@
     align-items: center;
     margin-top: 2rem;
 }
-.mobile__icons--box img {
+.mobile__icons--box{
     width: 4rem;
     height: 4rem;
     padding: 1rem;
+    transition: all .3s ease-in-out;
 }
+.mobile__icons--box:hover{
+transform: scale(1.5);
+box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+-webkit-box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+cursor: pointer;
+};
 
 .box--blue{
 background-color: blue;
