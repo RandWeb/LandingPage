@@ -1,0 +1,93 @@
+#feature-web {
+    min-height: 30vh;
+}
+
+.web__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.web__right--part {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.web__right--part img {
+    width: 45vw;
+}
+
+.web__right--circle {
+    position: absolute;
+    width: 40rem;
+    height: 38rem;
+    top: 290rem;
+    right: 8rem;
+    background-color: green;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.web__left--part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.web__left--top {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2rem 10rem;
+    margin: 5rem;
+}
+
+.web__left--top h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.web__left--top h2 {
+    padding: 5rem 0;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.web__left--top p {
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.web__left--bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 10rem;
+}
+
+.web__box--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.web__box--item img {
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.web__box--item h3{
+    padding: 2rem 0;
+}
+.box--react {
+    background: #74b9ff;
+}
+
+.box--ui {
+    background: #d63031;
+}

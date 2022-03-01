@@ -1,0 +1,40 @@
+#sign-up{
+    min-height: 20vh;
+}
+.sign__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 10rem 20rem;
+    box-shadow: -0.5rem 1.5rem 3rem 0.8rem rgba(128, 128, 128, 0.25);
+    -webkit-box-shadow: -0.5rem 1.5rem 3rem 0.8rem rgba(128, 128, 128, 0.25);
+}
+
+.sign__right--item img{
+    width: 30vw;
+}
+.sign__left--item{
+display: flex;
+padding-left: 10rem;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.sign__left--item h2{
+    font-size: 4rem;
+    padding: 2.5rem 0;
+    font-weight: 800;
+    color: var(--dark-color);
+}
+.sign__left--item p{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+.sign__left--item button{
+    margin-top: 4rem;
+}
+.btn__sign{
+    padding: 2rem 4rem;
+}

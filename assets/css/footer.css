@@ -1,0 +1,126 @@
+#footer {
+    min-height: 20vh;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.footer__wrapper li h3 {
+    margin: 2rem 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.footer__news p {
+    margin: .2rem 0;
+    color: #a8a8a8;
+}
+
+.footer__news span {
+    position: relative;
+    top: .1rem;
+    right: 11rem;
+    background-color: #2596be;
+    width: 10rem;
+    height: 4rem;
+    color: white;
+    border-radius: .4rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer__news input {
+    border: .2rem solid #000000;
+    width: 25rem;
+    border-radius: .8rem;
+    height: 5rem;
+    padding-left: 2.3rem;
+    margin: 1rem 0;
+}
+
+.footer__news input::placeholder,
+.footer .news input::-webkit-input-placeholder {
+    color: #000000;
+}
+
+.footer__links {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer__links ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links ul li {
+    margin: 1rem 1rem;
+}
+
+.footer__resource {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer__resource ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__resource ul li {
+    margin: 1rem .5rem;
+}
+
+
+.footer__logo {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__logo--logo {
+    height: 5rem;
+}
+
+.footer__logo p {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.footer__logo--icons {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 5rem;
+}
+
+.footer__logo--icons li {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: .2rem orange solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.footer__logo--icons li i {
+    background: white;
+    color: orange;
+    border-radius: 50%;
+}
+
+.footer__logo--icons li:hover {
+    border: 1rem orange solid;
+}

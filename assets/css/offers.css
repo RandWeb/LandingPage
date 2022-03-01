@@ -1,0 +1,153 @@
+#offers {
+    min-height: 80vh;
+}
+
+.offer__wrapper {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer__wrapper h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding: 4rem;
+}
+
+.offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.offer__right--part {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer__card--item {
+    width: 60rem;
+    border-radius: 2rem;
+    margin: 2rem 0 2rem 40rem;
+    box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+    -webkit-box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+}
+
+.offer__card--item h3 {
+    padding: 2rem;
+    font-size: 3.5rem;
+    color: var(--dark-color);
+}
+
+.offer__card--item p {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    color: var(--secondary-color);
+}
+
+.card--orange {
+    border-left: .5rem solid orange;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card--blue {
+    border-left: .5rem solid blue;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card--green {
+    border-left: .5rem solid green;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.offer__left--part {
+    padding: 1rem;
+}
+
+.circle__inner {
+    height: 25rem;
+    border-radius: 50rem 50rem 0 0;
+    background-color: orange;
+    transform: rotate(153deg);
+    position: relative;
+    top: 24rem;
+    left: 6rem;
+}
+
+.circle__outer {
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+    top: 5rem;
+    left: 14rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.offer__contacts {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 44rem;
+    left: 5rem;
+    top: 190rem;
+    height: 43rem;
+    border-radius: 50%;
+    background-color: #fffbfb;
+    overflow: hidden;
+    transform: rotate(90deg);
+}
+
+.offer__contacts ul {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.offer__contact--item {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #b2fafa;
+    border-radius: .5rem;
+    width: 25rem;
+    height: 4rem;
+}
+
+.offer__contact--avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    transform: rotate(-90deg);
+}
+
+.offer__contact--text{
+    position: relative;
+    bottom: 3rem;
+    left: 4rem;
+}
+.offer__contact--state {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    bottom: 5rem;
+    left: 20rem;
+}
+.circle__inner--person{
+position: relative;
+bottom:38rem;
+left: 4rem;
+transform: scale(.6);
+}
