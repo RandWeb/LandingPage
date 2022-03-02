@@ -1,5 +1,5 @@
 #feature-web {
-    min-height: 30vh;
+    display: block;
 }
 
 .web__wrapper {
@@ -14,6 +14,7 @@
     padding: 4rem;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .web__right--part img {
@@ -24,8 +25,8 @@
     position: absolute;
     width: 40rem;
     height: 38rem;
-    top: 290rem;
-    right: 8rem;
+    top: 20rem;
+    right: 5rem;
     background-color: green;
     border-radius: 50%;
     z-index: -2;

@@ -1,5 +1,5 @@
 #header {
-    height: 10vh;
+    display: inline-block;
 }
 
 .navbar {
@@ -32,4 +32,7 @@
 .nav__link:hover{
     cursor: pointer;
     color: var(--primary-color);
+}
+.demo__button{
+    padding: 1.5rem 3rem;
 }

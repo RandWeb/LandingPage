@@ -1,41 +1,37 @@
 #feature-mobile {
-    height: 40vh;
     background:linear-gradient(90deg,#f8fffe 1%,#f1fcfb 2%, #f3faf9  1%); 
 }
 
 .mobile__wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
+    justify-content: center;
+    position: relative;
 }
 
 .mobile__left--part {
-    width: 40vw;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .mobile__left--part img {
-    padding-left: 5rem;
-    height: 30vh;
-    margin-left: 20rem;
-    margin-bottom: 16rem;
-    transform: scale(2.0);
+    width: 100%;
+    transform: scale(1.2);
+    z-index: 3;
 }
 
 .mobile__right--part {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 40vw;
-    margin-bottom: 9rem;
+    justify-content: center;
 }
 
 .mobile__right-content {
     background-color: white;
-    width: 25vw;
-    height: 45vh;
     padding: 2rem 5rem 2rem 2rem;;
+    width: 50rem;
 }
 
 .mobile__right--tag {

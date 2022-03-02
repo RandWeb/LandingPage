@@ -1,6 +1,5 @@
 #hero {
-    min-height: 88vh;
-
+  
 }
 
 .hero__wrapper {
@@ -48,7 +47,6 @@
 
 .hero__right--item {
     opacity: 0.8;
-    height: 88vh;
 }
 
 .hero__right__picture {
@@ -60,4 +58,69 @@
 .hero_demo--platform {
     color: var(--secondary-color);
     font-weight: 500;
+}
+.hero__shape{
+    display: inline-block;
+    transform: rotate(7deg) scale(.9);
+}
+.shape__triangle--blue{
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 28px;
+    left: 8px;
+    display: inline-block;
+    border-width: 0 20px 36px 15px;
+    border-color: transparent transparent #341f97 transparent;
+    border-style: solid;
+    transform: rotate(310deg) scale(.9);
+}
+.shape__triangle--green{
+    position: relative;
+    top: -34px;
+    left: -16px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 0 18px 14px 18px;
+    border-color: transparent transparent #1dd1a1 transparent;
+    border-style: solid;
+    transform: rotate(359deg);
+    z-index: 2;
+    transform: scale(.9);
+}
+
+.shape__circle--green{
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: -52px;
+    z-index: -2;
+    border-radius: 50%;
+    background-color: #1dd1a1;
+}
+.shape__circle--red{
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    left: 34px;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: #ff6b6b;
+}
+.shape__circle--yellow{
+    width: 0.9999rem;
+    height: 1.8rem;
+    z-index: 16;
+    display: inline-block;
+    position: relative;
+    top: -54px;
+    left: 10px;
+    border-radius: 50%;
+    background-color: #feca57;
+    transform: rotate(-24deg);
 }

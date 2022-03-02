@@ -1,5 +1,6 @@
 #offers {
-    min-height: 80vh;
+    display: inline-block;
+    z-index: 20;
 }
 
 .offer__wrapper {
@@ -8,12 +9,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .offer__wrapper h2 {
     font-size: 4.5rem;
     font-weight: 700;
     padding: 4rem;
+
 }
 
 .offer {
@@ -107,7 +110,7 @@
     position: absolute;
     width: 44rem;
     left: 5rem;
-    top: 190rem;
+    top: 10rem;
     height: 43rem;
     border-radius: 50%;
     background-color: #fffbfb;
