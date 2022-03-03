@@ -8,10 +8,14 @@ display: block;
     justify-items: center;
     align-items: center;
     margin: 10rem 20rem;
+    box-shadow: -0.25rem .75rem 1.5rem 0.4rem rgba(128, 128, 128, 0.25);
+    -webkit-box-shadow: -0.25rem .75rem 1.5rem 0.4rem rgba(128, 128, 128, 0.25);
+    transition: all .3s ease-out;
+}
+.sign__wrapper:hover{
     box-shadow: -0.5rem 1.5rem 3rem 0.8rem rgba(128, 128, 128, 0.25);
     -webkit-box-shadow: -0.5rem 1.5rem 3rem 0.8rem rgba(128, 128, 128, 0.25);
 }
-
 .sign__right--item img{
     width: 30vw;
 }

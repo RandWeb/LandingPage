@@ -18,7 +18,7 @@
     --secondary-color:#515151;
     --size-xsmall:1rem;
     --size-small:1.5rem;
-    --size-meduim:2.5rem;
+    --size-meduim:2.2rem;
     --size-large:3.5rem;
     --size-xlarge:4.5rem;
     --size-xxlarge:5.5rem;
@@ -35,10 +35,16 @@ body{
     background:linear-gradient(141deg,white 0%,--light-color 51%, white 75%);
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
+    position: relative;
 }
-header,main,footer{
-    display: block;
+
+html,body{
+display: flex;
+flex-direction: column;
+}
+main{
+    flex-grow: 1;
 }
 button{
     cursor: pointer;

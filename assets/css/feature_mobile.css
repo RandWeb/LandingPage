@@ -37,6 +37,7 @@
     color: var(--secondary-color);
     font-weight: 500;
     padding: 1.5rem 0;
+    font-size: var(--size-medium);
 }
 
 .mobile__right--title {
@@ -62,8 +63,8 @@
 }
 
 .mobile__icons--box {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     padding: 1rem;
     transition: all .3s ease-in-out;
 }

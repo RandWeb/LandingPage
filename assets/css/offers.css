@@ -13,7 +13,7 @@
 }
 
 .offer__wrapper h2 {
-    font-size: 4.5rem;
+    font-size: var(--size-xxlarge);
     font-weight: 700;
     padding: 4rem;
 
@@ -50,7 +50,7 @@
 
 .offer__card--item h3 {
     padding: 2rem;
-    font-size: 3.5rem;
+    font-size: var(--size-large);
     color: var(--dark-color);
 }
 
@@ -59,6 +59,7 @@
     padding-left: 2rem;
     padding-bottom: 4rem;
     color: var(--secondary-color);
+    font-size: var(--size-small);
 }
 
 .card--orange {

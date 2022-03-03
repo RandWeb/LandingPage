@@ -1,5 +1,7 @@
 #footer {
     display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 .footer__wrapper {
@@ -11,8 +13,8 @@
 
 .footer__wrapper li h3 {
     margin: 2rem 0;
-    font-weight: 700;
-    font-size: 3rem;
+    font-weight: 600;
+    font-size: var(--size-meduim);
 }
 
 .footer__news p {
@@ -61,8 +63,12 @@
 
 .footer__links ul li {
     margin: 1rem 1rem;
+    transition: all .3s ease-in;
 }
-
+.footer__links ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2) translateX(1rem);
+}
 .footer__resource {
     display: inline-flex;
     flex-direction: column;
@@ -75,8 +81,12 @@
 
 .footer__resource ul li {
     margin: 1rem .5rem;
+    transition: all .3s ease-in;
 }
-
+.footer__resource ul li:hover{
+    cursor: pointer;
+    transform: scale(1.2) translateX(1rem);
+}
 
 .footer__logo {
     padding-left: 2rem;
@@ -123,4 +133,21 @@
 
 .footer__logo--icons li:hover {
     border: 1rem orange solid;
+}
+
+.wrapper__curve{
+width: 100%;
+position: absolute;
+bottom: 0;
+overflow: hidden;
+z-index: -9999;
+}
+.curve{
+    width: 130%;
+    height: 35rem;
+    position: relative;
+    right: 15%;
+    border-radius: 50% 50% 0 0;
+    background-color: #7ed6df;
+    opacity: 0.09999999;
 }
