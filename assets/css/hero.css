@@ -1,5 +1,5 @@
 #hero {
-  
+    margin-bottom: 5rem;
 }
 
 .hero__wrapper {
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    margin: -2rem 5rem 12rem 5rem;
+    margin: 8rem 0rem 12rem 6rem;
     line-height: 2;
 }
 
@@ -28,20 +28,20 @@
 
 .hero__description {
     color: var(--secondary-color);
-    font-size: 2rem;
+    font-size: var(--size-meduim);
 }
 
 .left--item__demo {
     display: flex;
     flex-direction: row;
-    margin-top: 1rem;
+    margin: 4rem 0;
     justify-content: center;
     align-items: center;
 }
 
 .hero__btn {
     padding: 1.5rem 2.5rem;
-    font-size: 1.8rem;
+    font-size: var(--size-small);
     margin: 0 1rem;
 }
 
@@ -60,29 +60,33 @@
     font-weight: 500;
 }
 .hero__shape{
-    display: inline-block;
+    position: relative;
+    left: -3rem;
+    top: 0;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     transform: rotate(7deg) scale(.9);
 }
 .shape__triangle--blue{
     width: 0;
     height: 0;
     position: relative;
-    top: 28px;
-    left: 8px;
-    display: inline-block;
-    border-width: 0 20px 36px 15px;
+    top: -.2rem;
+    left: 3.9rem;
+    border-width: 0 2rem 3.6rem 1.5rem;
     border-color: transparent transparent #341f97 transparent;
     border-style: solid;
     transform: rotate(310deg) scale(.9);
 }
 .shape__triangle--green{
-    position: relative;
-    top: -34px;
-    left: -16px;
-    display: inline-block;
+    position: absolute;
+    top: 2.4rem;
+    left: -1.6rem;
     width: 0;
     height: 0;
-    border-width: 0 18px 14px 18px;
+    border-width: 0 1.8rem 1.4rem 1.8rem;
     border-color: transparent transparent #1dd1a1 transparent;
     border-style: solid;
     transform: rotate(359deg);
@@ -95,8 +99,8 @@
     height: 5rem;
     display: inline-block;
     position: relative;
-    top: 2px;
-    left: -52px;
+    top: 0;
+    left: 0;
     z-index: -2;
     border-radius: 50%;
     background-color: #1dd1a1;
@@ -104,10 +108,9 @@
 .shape__circle--red{
     width: 2rem;
     height: 2rem;
-    display: inline-block;
     position: relative;
-    top: 45px;
-    left: 34px;
+    top: 1rem;
+    left: 4.6rem;
     z-index: -1;
     border-radius: 50%;
     background-color: #ff6b6b;
@@ -116,10 +119,9 @@
     width: 0.9999rem;
     height: 1.8rem;
     z-index: 16;
-    display: inline-block;
-    position: relative;
-    top: -54px;
-    left: 10px;
+    position: absolute;
+    top: -.1rem;
+    left: 1rem;
     border-radius: 50%;
     background-color: #feca57;
     transform: rotate(-24deg);

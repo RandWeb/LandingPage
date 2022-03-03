@@ -16,6 +16,12 @@
     --accent-color:#d57d00;
     --light-color:#f7f7f7;
     --secondary-color:#515151;
+    --size-xsmall:1rem;
+    --size-small:1.5rem;
+    --size-meduim:2.5rem;
+    --size-large:3.5rem;
+    --size-xlarge:4.5rem;
+    --size-xxlarge:5.5rem;
 }
 
 html{

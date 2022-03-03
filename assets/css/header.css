@@ -1,5 +1,6 @@
 #header {
     display: inline-block;
+    margin-bottom: 2rem;
 }
 
 .navbar {
@@ -22,6 +23,7 @@
 
 .nav__list{
     margin: 0 .5rem;
+    font-size: var(--size-small);
 }
 .nav__link{
     color: var(--dark-color);
@@ -34,5 +36,7 @@
     color: var(--primary-color);
 }
 .demo__button{
+    font-size: var(--size-medium);
     padding: 1.5rem 3rem;
+    font-weight: 500;
 }

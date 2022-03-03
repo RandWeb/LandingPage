@@ -1,5 +1,5 @@
 #feature-mobile {
-    background:linear-gradient(90deg,#f8fffe 1%,#f1fcfb 2%, #f3faf9  1%); 
+    background: linear-gradient(90deg, #f8fffe 1%, #f1fcfb 2%, #f3faf9 1%);
 }
 
 .mobile__wrapper {
@@ -24,14 +24,13 @@
 
 .mobile__right--part {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
 .mobile__right-content {
     background-color: white;
-    padding: 2rem 5rem 2rem 2rem;;
-    width: 50rem;
+    padding: 7rem 6rem 6rem 6rem;
+    width: 55rem;
 }
 
 .mobile__right--tag {
@@ -53,7 +52,7 @@
     padding: 1rem 0;
 }
 
-.mobile__icons{
+.mobile__icons {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -61,24 +60,27 @@
     align-items: center;
     margin-top: 2rem;
 }
-.mobile__icons--box{
+
+.mobile__icons--box {
     width: 4rem;
     height: 4rem;
     padding: 1rem;
     transition: all .3s ease-in-out;
 }
-.mobile__icons--box:hover{
-transform: scale(1.5);
-box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
--webkit-box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
-cursor: pointer;
-};
 
-.box--blue{
-background-color: blue;
-border-radius: .5rem;
+.mobile__icons--box:hover {
+    transform: scale(1.5);
+    box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+    -webkit-box-shadow: 3rem 2.5rem 3rem .2rem rgba(128, 128, 128, 0.25);
+    cursor: pointer;
 }
-.box--green{
-background-color: green;
-border-radius: .5rem;
+
+.box__mobile--green {
+    background-color: green;
+    border-radius: .5rem;
+}
+
+.box__mobile--blue {
+    background-color: blue;
+    border-radius: .5rem;
 }
