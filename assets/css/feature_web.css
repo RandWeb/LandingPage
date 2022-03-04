@@ -11,21 +11,18 @@
 }
 
 .web__right--part {
-    padding: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     position: relative;
+    align-items: center;
+    width: 48%;
 }
 
-.web__right--part img {
-    width: 45vw;
-}
-
-.web__right--circle {
+.web__right--circle  span{
     position: absolute;
-    width: 40rem;
-    height: 38rem;
-    top: 20rem;
+    width: 24rem;
+    height: 24rem;
+    top: 24rem;
     right: 5rem;
     background-color: green;
     border-radius: 50%;
@@ -37,13 +34,13 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 1rem;
+    width: 45%;
 }
 
 .web__left--top {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 2rem 10rem;
     margin: 5rem;
 }
 
@@ -69,7 +66,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 10rem;
 }
 
 .web__box--item {
@@ -100,4 +96,13 @@
 
 .box--ui {
     background: #d63031;
+}
+.web__picture{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0 2rem;
+}
+.web__picture img{
+    width: 100%;
 }

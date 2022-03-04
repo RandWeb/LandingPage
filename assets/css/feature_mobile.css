@@ -1,7 +1,9 @@
 #feature-mobile {
     background: linear-gradient(90deg, #f8fffe 1%, #f1fcfb 2%, #f3faf9 1%);
 }
-
+#feature-mobile .container{
+    overflow: visible;
+}
 .mobile__wrapper {
     display: flex;
     flex-direction: row;
